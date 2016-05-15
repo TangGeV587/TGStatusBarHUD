@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1362381CE8BAAE004EE459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1362371CE8BAAE004EE459 /* main.m */; };
+		4C13623B1CE8BAAE004EE459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13623A1CE8BAAE004EE459 /* AppDelegate.m */; };
+		4C1362431CE8BAAE004EE459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1362421CE8BAAE004EE459 /* Assets.xcassets */; };
+		4C1362461CE8BAAE004EE459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1362441CE8BAAE004EE459 /* LaunchScreen.storyboard */; };
+		4C1362511CE8BAAE004EE459 /* TGStatusHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1362501CE8BAAE004EE459 /* TGStatusHUDDemoTests.m */; };
+		4C13625C1CE8BAAE004EE459 /* TGStatusHUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13625B1CE8BAAE004EE459 /* TGStatusHUDDemoUITests.m */; };
+		4C1362781CE8BBAE004EE459 /* TGStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C1362751CE8BBAE004EE459 /* TGStatusBarHUD.bundle */; };
+		4C1362791CE8BBAE004EE459 /* TGStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1362771CE8BBAE004EE459 /* TGStatusBarHUD.m */; };
+		4C13627D1CE8BBC0004EE459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C13627A1CE8BBC0004EE459 /* Main.storyboard */; };
+		4C13627E1CE8BBC0004EE459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13627C1CE8BBC0004EE459 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C13624D1CE8BAAE004EE459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C13622B1CE8BAAE004EE459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1362321CE8BAAE004EE459;
+			remoteInfo = TGStatusHUDDemo;
+		};
+		4C1362581CE8BAAE004EE459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C13622B1CE8BAAE004EE459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1362321CE8BAAE004EE459;
+			remoteInfo = TGStatusHUDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1362331CE8BAAE004EE459 /* TGStatusHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGStatusHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1362371CE8BAAE004EE459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C1362391CE8BAAE004EE459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C13623A1CE8BAAE004EE459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C1362421CE8BAAE004EE459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1362451CE8BAAE004EE459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C1362471CE8BAAE004EE459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C13624C1CE8BAAE004EE459 /* TGStatusHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGStatusHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1362501CE8BAAE004EE459 /* TGStatusHUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGStatusHUDDemoTests.m; sourceTree = "<group>"; };
+		4C1362521CE8BAAE004EE459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1362571CE8BAAE004EE459 /* TGStatusHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGStatusHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C13625B1CE8BAAE004EE459 /* TGStatusHUDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGStatusHUDDemoUITests.m; sourceTree = "<group>"; };
+		4C13625D1CE8BAAE004EE459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1362751CE8BBAE004EE459 /* TGStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TGStatusBarHUD.bundle; sourceTree = "<group>"; };
+		4C1362761CE8BBAE004EE459 /* TGStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStatusBarHUD.h; sourceTree = "<group>"; };
+		4C1362771CE8BBAE004EE459 /* TGStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGStatusBarHUD.m; sourceTree = "<group>"; };
+		4C13627A1CE8BBC0004EE459 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4C13627B1CE8BBC0004EE459 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C13627C1CE8BBC0004EE459 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1362301CE8BAAE004EE459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1362491CE8BAAE004EE459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1362541CE8BAAE004EE459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C13622A1CE8BAAE004EE459 = {
+			isa = PBXGroup;
+			children = (
+				4C1362351CE8BAAE004EE459 /* TGStatusHUDDemo */,
+				4C13624F1CE8BAAE004EE459 /* TGStatusHUDDemoTests */,
+				4C13625A1CE8BAAE004EE459 /* TGStatusHUDDemoUITests */,
+				4C1362341CE8BAAE004EE459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1362341CE8BAAE004EE459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1362331CE8BAAE004EE459 /* TGStatusHUDDemo.app */,
+				4C13624C1CE8BAAE004EE459 /* TGStatusHUDDemoTests.xctest */,
+				4C1362571CE8BAAE004EE459 /* TGStatusHUDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1362351CE8BAAE004EE459 /* TGStatusHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4C1362741CE8BBAE004EE459 /* TGStatusBarHUD */,
+				4C1362391CE8BAAE004EE459 /* AppDelegate.h */,
+				4C13627A1CE8BBC0004EE459 /* Main.storyboard */,
+				4C13627B1CE8BBC0004EE459 /* ViewController.h */,
+				4C13627C1CE8BBC0004EE459 /* ViewController.m */,
+				4C13623A1CE8BAAE004EE459 /* AppDelegate.m */,
+				4C1362421CE8BAAE004EE459 /* Assets.xcassets */,
+				4C1362441CE8BAAE004EE459 /* LaunchScreen.storyboard */,
+				4C1362471CE8BAAE004EE459 /* Info.plist */,
+				4C1362361CE8BAAE004EE459 /* Supporting Files */,
+			);
+			path = TGStatusHUDDemo;
+			sourceTree = "<group>";
+		};
+		4C1362361CE8BAAE004EE459 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C1362371CE8BAAE004EE459 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C13624F1CE8BAAE004EE459 /* TGStatusHUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1362501CE8BAAE004EE459 /* TGStatusHUDDemoTests.m */,
+				4C1362521CE8BAAE004EE459 /* Info.plist */,
+			);
+			path = TGStatusHUDDemoTests;
+			sourceTree = "<group>";
+		};
+		4C13625A1CE8BAAE004EE459 /* TGStatusHUDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C13625B1CE8BAAE004EE459 /* TGStatusHUDDemoUITests.m */,
+				4C13625D1CE8BAAE004EE459 /* Info.plist */,
+			);
+			path = TGStatusHUDDemoUITests;
+			sourceTree = "<group>";
+		};
+		4C1362741CE8BBAE004EE459 /* TGStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4C1362751CE8BBAE004EE459 /* TGStatusBarHUD.bundle */,
+				4C1362761CE8BBAE004EE459 /* TGStatusBarHUD.h */,
+				4C1362771CE8BBAE004EE459 /* TGStatusBarHUD.m */,
+			);
+			name = TGStatusBarHUD;
+			path = ../../TGStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1362321CE8BAAE004EE459 /* TGStatusHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1362601CE8BAAE004EE459 /* Build configuration list for PBXNativeTarget "TGStatusHUDDemo" */;
+			buildPhases = (
+				4C13622F1CE8BAAE004EE459 /* Sources */,
+				4C1362301CE8BAAE004EE459 /* Frameworks */,
+				4C1362311CE8BAAE004EE459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGStatusHUDDemo;
+			productName = TGStatusHUDDemo;
+			productReference = 4C1362331CE8BAAE004EE459 /* TGStatusHUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C13624B1CE8BAAE004EE459 /* TGStatusHUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1362631CE8BAAE004EE459 /* Build configuration list for PBXNativeTarget "TGStatusHUDDemoTests" */;
+			buildPhases = (
+				4C1362481CE8BAAE004EE459 /* Sources */,
+				4C1362491CE8BAAE004EE459 /* Frameworks */,
+				4C13624A1CE8BAAE004EE459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C13624E1CE8BAAE004EE459 /* PBXTargetDependency */,
+			);
+			name = TGStatusHUDDemoTests;
+			productName = TGStatusHUDDemoTests;
+			productReference = 4C13624C1CE8BAAE004EE459 /* TGStatusHUDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1362561CE8BAAE004EE459 /* TGStatusHUDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1362661CE8BAAE004EE459 /* Build configuration list for PBXNativeTarget "TGStatusHUDDemoUITests" */;
+			buildPhases = (
+				4C1362531CE8BAAE004EE459 /* Sources */,
+				4C1362541CE8BAAE004EE459 /* Frameworks */,
+				4C1362551CE8BAAE004EE459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1362591CE8BAAE004EE459 /* PBXTargetDependency */,
+			);
+			name = TGStatusHUDDemoUITests;
+			productName = TGStatusHUDDemoUITests;
+			productReference = 4C1362571CE8BAAE004EE459 /* TGStatusHUDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C13622B1CE8BAAE004EE459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tangge;
+				TargetAttributes = {
+					4C1362321CE8BAAE004EE459 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4C13624B1CE8BAAE004EE459 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4C1362321CE8BAAE004EE459;
+					};
+					4C1362561CE8BAAE004EE459 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4C1362321CE8BAAE004EE459;
+					};
+				};
+			};
+			buildConfigurationList = 4C13622E1CE8BAAE004EE459 /* Build configuration list for PBXProject "TGStatusHUDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C13622A1CE8BAAE004EE459;
+			productRefGroup = 4C1362341CE8BAAE004EE459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1362321CE8BAAE004EE459 /* TGStatusHUDDemo */,
+				4C13624B1CE8BAAE004EE459 /* TGStatusHUDDemoTests */,
+				4C1362561CE8BAAE004EE459 /* TGStatusHUDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1362311CE8BAAE004EE459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1362781CE8BBAE004EE459 /* TGStatusBarHUD.bundle in Resources */,
+				4C1362461CE8BAAE004EE459 /* LaunchScreen.storyboard in Resources */,
+				4C1362431CE8BAAE004EE459 /* Assets.xcassets in Resources */,
+				4C13627D1CE8BBC0004EE459 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C13624A1CE8BAAE004EE459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1362551CE8BAAE004EE459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C13622F1CE8BAAE004EE459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1362791CE8BBAE004EE459 /* TGStatusBarHUD.m in Sources */,
+				4C13623B1CE8BAAE004EE459 /* AppDelegate.m in Sources */,
+				4C13627E1CE8BBC0004EE459 /* ViewController.m in Sources */,
+				4C1362381CE8BAAE004EE459 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1362481CE8BAAE004EE459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1362511CE8BAAE004EE459 /* TGStatusHUDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1362531CE8BAAE004EE459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C13625C1CE8BAAE004EE459 /* TGStatusHUDDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C13624E1CE8BAAE004EE459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1362321CE8BAAE004EE459 /* TGStatusHUDDemo */;
+			targetProxy = 4C13624D1CE8BAAE004EE459 /* PBXContainerItemProxy */;
+		};
+		4C1362591CE8BAAE004EE459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1362321CE8BAAE004EE459 /* TGStatusHUDDemo */;
+			targetProxy = 4C1362581CE8BAAE004EE459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1362441CE8BAAE004EE459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1362451CE8BAAE004EE459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C13625E1CE8BAAE004EE459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C13625F1CE8BAAE004EE459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1362611CE8BAAE004EE459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGStatusHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGStatusHUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C1362621CE8BAAE004EE459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGStatusHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGStatusHUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C1362641CE8BAAE004EE459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGStatusHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGStatusHUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGStatusHUDDemo.app/TGStatusHUDDemo";
+			};
+			name = Debug;
+		};
+		4C1362651CE8BAAE004EE459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGStatusHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGStatusHUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGStatusHUDDemo.app/TGStatusHUDDemo";
+			};
+			name = Release;
+		};
+		4C1362671CE8BAAE004EE459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGStatusHUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGStatusHUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGStatusHUDDemo;
+			};
+			name = Debug;
+		};
+		4C1362681CE8BAAE004EE459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGStatusHUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGStatusHUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGStatusHUDDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C13622E1CE8BAAE004EE459 /* Build configuration list for PBXProject "TGStatusHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C13625E1CE8BAAE004EE459 /* Debug */,
+				4C13625F1CE8BAAE004EE459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1362601CE8BAAE004EE459 /* Build configuration list for PBXNativeTarget "TGStatusHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1362611CE8BAAE004EE459 /* Debug */,
+				4C1362621CE8BAAE004EE459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1362631CE8BAAE004EE459 /* Build configuration list for PBXNativeTarget "TGStatusHUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1362641CE8BAAE004EE459 /* Debug */,
+				4C1362651CE8BAAE004EE459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1362661CE8BAAE004EE459 /* Build configuration list for PBXNativeTarget "TGStatusHUDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1362671CE8BAAE004EE459 /* Debug */,
+				4C1362681CE8BAAE004EE459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C13622B1CE8BAAE004EE459 /* Project object */;
+}
